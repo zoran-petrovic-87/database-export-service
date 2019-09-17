@@ -1,0 +1,28 @@
+{
+  "name": "database-export-service",
+  "version": "1.0.0",
+  "description": "Service for exporting data from database.",
+  "main": "index.js",
+  "scripts": {
+    "start": "env-cmd -f ./config/.env node src/index.js",
+    "dev": "env-cmd -f ./config/dev.env nodemon src/index.js"
+  },
+  "keywords": [
+    "database",
+    "export",
+    "service"
+  ],
+  "author": "Zoran Petrović",
+  "license": "MIT",
+  "dependencies": {
+    "env-cmd": "^10.0.1",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.4.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "nodemon": "^1.19.2"
+  }
+}
