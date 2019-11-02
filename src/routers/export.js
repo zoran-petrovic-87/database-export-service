@@ -1,10 +1,8 @@
 const express = require('express');
+const exportController = require('../controllers/exportController');
 
 const router = new express.Router();
 
-router.get(
-  '/',
-  (_req, res) => res.status(200).send({ message: 'OK' }),
-);
+router.get('/', exportController);
 
 module.exports = router;
