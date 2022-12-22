@@ -20,7 +20,7 @@
     "env-cmd": "^10.0.1",
     "express": "^4.17.1",
     "jest": "^24.9.0",
-    "jsonwebtoken": "^8.5.1",
+    "jsonwebtoken": "^9.0.0",
     "pg": "^7.12.1",
     "pg-cursor": "^2.0.0",
     "pg-query-stream": "^2.0.0",
